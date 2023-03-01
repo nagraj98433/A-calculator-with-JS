@@ -12,8 +12,8 @@ body {
 #container {
   width: 1000px;
   height: 550px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(./img/bg.jpg);
+/*   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./img/bg.jpg); */
   margin: 20px auto;
   border-radius: 4px;
 }
@@ -27,10 +27,12 @@ body {
   position: relative;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top-left-radius: 75px;
 }
 
 #result {
   height: 120px;
+  background: #000000c7;
 }
 
 #history {
@@ -54,6 +56,7 @@ body {
   height: 60px;
   margin: 10px 20px;
   font-size: 30px;
+  color: #0bee46;
 }
 
 #keyboard {
@@ -87,6 +90,7 @@ body {
 .operator1,
 .operator2 {
   cursor: pointer;
+  color: white;  
 }
 
 .operator:active,
