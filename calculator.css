@@ -12,7 +12,7 @@ body {
 #container {
   width: 1000px;
   height: 550px;
-/*   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  /*   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(./img/bg.jpg); */
   margin: 20px auto;
   border-radius: 4px;
@@ -27,7 +27,6 @@ body {
   position: relative;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-top-left-radius: 75px;
 }
 
 #result {
@@ -45,7 +44,7 @@ body {
 }
 
 #history-value {
-  color: #ff00ff;
+  color: #c0f8ff;
 }
 #output-value {
   color: #1ce3be;
@@ -73,24 +72,34 @@ body {
   height: 50px;
   margin: 15px;
   float: left;
-  border-radius: 50%;
+  border-radius: 10%;
   border-width: 0px;
   background-color: rgba(0, 0, 0, 0.2);
-  font-weight: bold;
-  font-size: 15px;
+  font-size: 25px;
 }
 
-.number,
+.number {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.zero {
+  width: 40%;
+}
 .empty {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
-
 .number,
 .operator,
 .operator1,
 .operator2 {
   cursor: pointer;
-  color: white;  
+  color: white;
+}
+.bg_operator {
+  color: #66ff7f;
+}
+#clear {
+  background-color: #ff5959;
+  color: black;
 }
 
 .operator:active,
@@ -119,7 +128,7 @@ button:nth-child(8) {
 }
 
 button:nth-child(12) {
-  font-size: 20px;
+  font-size: 37px;
   /* background-color: #7d93e0; */
 }
 
