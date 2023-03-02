@@ -106,7 +106,7 @@ body {
 .number:active,
 .operator2:active,
 .operator1:active {
-  font-size: 13px;
+  font-size: 22px;
 }
 
 .operator:focus,
